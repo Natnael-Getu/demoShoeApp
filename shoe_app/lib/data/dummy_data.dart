@@ -28,22 +28,15 @@ final List<ShoeModel> availableShoes = [
     name: "NIKE",
     model: "Air-FORCE",
     price: 110.00,
-    imgAddress: "assets/images/nike3.png",
+    imgAddress: "assets/images/underArmour.png",
     modelColor: const Color(0xffD7D8DC),
   ),
   ShoeModel(
     name: "NIKE",
     model: "AIR-JORDAN LOW",
     price: 150.00,
-    imgAddress: "assets/images/nike5.png",
+    imgAddress: "assets/images/nike6.png",
     modelColor: const Color(0xff37376B),
-  ),
-  ShoeModel(
-    name: "NIKE",
-    model: "ZOOM",
-    price: 115.00,
-    imgAddress: "assets/images/nike4.png",
-    modelColor: const Color(0xffE4E3E8),
   ),
   ShoeModel(
     name: "NIKE",
@@ -51,13 +44,6 @@ final List<ShoeModel> availableShoes = [
     price: 150.00,
     imgAddress: "assets/images/nike7.png",
     modelColor: const Color(0xffD68043),
-  ),
-  ShoeModel(
-    name: "NIKE",
-    model: "AIR-JORDAN LOW",
-    price: 150.00,
-    imgAddress: "assets/images/nike6.png",
-    modelColor: const Color(0xffE2E3E5),
   ),
 ];
 
@@ -89,6 +75,14 @@ final List<UserStatus> userStatus = [
     unSelectColor: const Color(0xffdb9797),
   ),
 ];
+final List<MoreCatagories> moreCatagorie = [
+  MoreCatagories(name: 'Jordan-9', imgAddress: 'assets/images/j9.png'),
+  MoreCatagories(name: 'Puma', imgAddress: 'assets/images/nike3.png'),
+  MoreCatagories(name: 'UnderArmour', imgAddress: 'assets/images/Nike.png'),
+  MoreCatagories(name: 'Nike', imgAddress: 'assets/images/Adidas.png'),
+  MoreCatagories(name: 'Nike', imgAddress: 'assets/images/nike4.png'),
+  MoreCatagories(name: 'Nike', imgAddress: 'assets/images/nike5.png'),
+];
 
 final List categories = [
   'Nike',
@@ -103,6 +97,14 @@ final List featured = [
   'New',
   'Featured',
   'Upcoming',
+];
+final List moreCatagories = [
+  'Jordan-9',
+  'Nike',
+  'NikeBlue',
+  'Adidas',
+  'Nike',
+  'Nike'
 ];
 
 final List<double> sizes = [6, 7.5, 8, 9.5];

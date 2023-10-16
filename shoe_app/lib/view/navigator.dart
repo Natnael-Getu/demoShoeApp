@@ -55,6 +55,7 @@ class _MainNavigatorState extends State<MainNavigator> {
         children: pages,
       ),
       bottomNavigationBar: CustomNavigationBar(
+          elevation: 0,
           iconSize: 23,
           currentIndex: index,
           bubbleCurve: Curves.linear,

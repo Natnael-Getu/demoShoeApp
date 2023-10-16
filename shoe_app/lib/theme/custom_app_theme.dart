@@ -19,7 +19,7 @@ class AppThemes {
   static const TextStyle homeProductModel = TextStyle(
       color: AppConstantsColor.lightTextColor,
       fontWeight: FontWeight.bold,
-      fontSize: 22);
+      fontSize: 17);
   static const TextStyle homeProductPrice = TextStyle(
       color: AppConstantsColor.lightTextColor,
       fontWeight: FontWeight.w400,
